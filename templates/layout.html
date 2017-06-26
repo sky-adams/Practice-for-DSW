@@ -8,9 +8,9 @@
   <body>
     <!-- Make the menu that will be on all pages -->
     <ul>
-      <li><a href="{{ url_for('static', filename='home.html') }}">Home</a></li>
-      <li><a href="{{ url_for('static', filename='page1.html') }}">Page 1</a></li>
-      <li><a href="{{ url_for('static', filename='page2.html') }}">Page 2</a></li>
+      <li><a href='/home.html'>Home</a></li>
+      <li><a href='/page1.html'>Page 1</a></li>
+      <li><a href='/page2.html'>Page 2</a></li>
     </ul>
     <div id="content">{% block content %}{% endblock %}</div>
   </body>
