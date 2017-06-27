@@ -10,9 +10,9 @@ def render_main():
 def render_page1():
     return render_template('login.html')
 
-@app.route("/page2")
+@app.route("/createaccount")
 def render_page2():
-    return render_template('page2.html')
+    return render_template('createaccount.html')
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
